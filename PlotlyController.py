@@ -35,7 +35,7 @@ class PlotlyController:
         sound_stream.open()
         light_stream.open()
 
-    def plotGraph(self,motion_value,light_value,time_valu):
+    def plotGraph(self,sound_value,light_value,time_value):
         sound_stream.write('x': time_value,'y':sound_value)
         light_stream.write('x': time_value,'y':light_value)
 
