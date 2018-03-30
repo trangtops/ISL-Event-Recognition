@@ -6,7 +6,7 @@ import serial
 
 class SensorController:
 
-port = "/dev/ttyACM0" #Serial port
+    port = "/dev/ttyACM0" #Serial port
     def __init__(self):
         self.gpio.setmode(gpio.BCM)
         self.gpio.setup(25, gpio.IN)
